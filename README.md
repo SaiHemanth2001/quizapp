@@ -10,6 +10,7 @@ JDBC URL: jdbc:h2:mem:h2db
 Username: user
 Password: password
 Click Connect to access the database.
+
 **API Endpoints**
 You can test the following APIs using Postman or any other API testing tool:
 - Get a Random Question
