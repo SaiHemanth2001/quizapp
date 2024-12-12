@@ -1,0 +1,17 @@
+INSERT INTO question (mcq, optiona, optionb, optionc, optiond, correct_option) VALUES
+('What is the smallest country in the world?', 'Monaco', 'San Marino', 'Vatican City', 'Liechtenstein', 'C'),
+('Which animal is known as the King of the Jungle?', 'Tiger', 'Lion', 'Elephant', 'Cheetah', 'B'),
+('Who painted the Mona Lisa?', 'Picasso', 'Van Gogh', 'Leonardo da Vinci', 'Michelangelo', 'C'),
+('What is the square root of 64?', '6', '7', '8', '9', 'C'),
+('Which element has the chemical symbol "O"?', 'Oxygen', 'Gold', 'Silver', 'Iron', 'A'),
+('What is the largest mammal?', 'Elephant', 'Blue Whale', 'Giraffe', 'Shark', 'B'),
+('Which country is known as the Land of the Rising Sun?', 'China', 'Japan', 'Korea', 'Vietnam', 'B'),
+('What is the capital of Italy?', 'Rome', 'Paris', 'Berlin', 'Madrid', 'A'),
+('What is the longest river in the world?', 'Amazon', 'Nile', 'Yangtze', 'Mississippi', 'B'),
+('What is the sum of 5 + 7?', '10', '11', '12', '13', 'C'),
+('In which year did World War II end?', '1940', '1942', '1944', '1945', 'D'),
+('Which organ in the human body pumps blood?', 'Liver', 'Brain', 'Heart', 'Lungs', 'C'),
+('What is the currency of Japan?', 'Yuan', 'Won', 'Yen', 'Ringgit', 'C'),
+('What is the capital of France?', 'Paris', 'Berlin', 'Madrid', 'Rome', 'A'),
+('Which planet is known as the Blue Planet?', 'Mars', 'Earth', 'Venus', 'Jupiter', 'B'),
+('Which planet is known as the Red Planet?', 'Earth', 'Mars', 'Jupiter', 'Venus', 'B');
