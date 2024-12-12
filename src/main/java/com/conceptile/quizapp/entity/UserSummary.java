@@ -1,7 +1,5 @@
 package com.conceptile.quizapp.entity;
 
-
-
 public class UserSummary {
     private int totalQuestions;
     private int correctAnswers;

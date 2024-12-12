@@ -31,11 +31,11 @@ public class QuizService {
     public boolean submitAnswer(Long questionId, String answer){
         Question question = questionRepository.findById(questionId)
                 .orElseThrow(() -> new RuntimeException("Question not found."));
-        totalQuestions++;
+        
         if(answer.length() != 1||!"ABCD".contains(answer.toUpperCase())){
         	throw new RuntimeException("No questions available.");
         }
-        
+        totalQuestions++;
         if (question.getCorrectOption().equalsIgnoreCase(answer)) {
             correctAnswers++;
             return true;
